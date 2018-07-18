@@ -1,0 +1,764 @@
+/*首页*/
+.indexPage{
+  width: 100%;
+  height:1206/100rem;
+  background: url("../images/homeBg.png") no-repeat;
+  background-size: 100% 1206/100rem;
+  .photos{
+    width: 609/100rem;
+    -webkit-border-radius: 8/100rem;
+    -moz-border-radius: 8/100rem;
+    border-radius: 8/100rem;
+    margin:0 auto;
+    padding-top: 120/100rem;
+    .head{
+      width: 100%;
+      img{
+        display: block;
+        margin: 0 auto;
+      }
+      img:nth-child(1){
+        width: 203/100rem;
+        height: 58/100rem;
+      }
+      img:nth-child(2){
+        width: 361/100rem;
+        height: 196/100rem;
+        margin: 30/100rem auto 60/100rem;
+      }
+    }
+    .btnCommon{
+      margin-bottom: 35/100rem;
+    }
+    form{
+      margin-bottom: 60/100rem;
+      a{
+        display: block;
+        width: 370/100rem;
+        height: 80/100rem;
+        margin: 0 auto;
+        -webkit-border-radius: 0.04rem;
+        -moz-border-radius: 0.04rem;
+        border-radius: 0.04rem;
+        input{
+          color: #fff!important;
+        }
+      }
+      .btnCommon{
+        position: relative;
+        span{
+          float: left;
+          display: inline-block;
+          width: 110/100rem;
+          font-size: 36/100rem;
+          color: #A7A7A7;
+          margin-left:30/100rem;
+        }
+        .writeName{
+          font-size: 24/100rem;
+          color: red;
+          position: absolute;
+          top: 0.55rem;
+          left: 1.4rem;
+        }
+      }
+      .username{
+        input{
+          float: right;
+          width: 220/100rem;
+          height: 70/100rem;
+          line-height: 80/100rem;
+        }
+      }
+      .usersex{
+        input{
+          display: inline-block;
+          width: 80/100rem;
+          height: 50/100rem;
+          overflow: hidden;
+          background: url("../images/radioIcon.png") no-repeat;
+          background-size: 149/100rem 99/100rem;
+          vertical-align: middle;
+          outline: none;
+          resize: none;
+          appearance: none;
+          -webkit-appearance: none;
+        }
+        .boy{
+          background-position: 0 -58/100rem;
+          margin-right: 35/100rem;
+        }
+        .boyActive{
+          background-position: 0 0;
+          margin-right: 35/100rem;
+        }
+        .girl{
+          background-position: -92/100rem -58/100rem;
+        }
+        .girlActive{
+          background-position: -92/100rem 0;
+        }
+      }
+    }
+    .makePhoto{
+      color: #fff;
+      background: #FDAF3D;
+      box-shadow: 0 8/100rem 0 0 #F68515;
+      text-align: center;
+      border:none;
+      line-height: 80/100rem;
+      margin-bottom: 30/100rem;
+    }
+    .getPresent{
+      color: #fff;
+      text-align: center;
+      background: #A2C4F4;
+      box-shadow: 0 8/100rem 0 0 #388AFF;
+      border:none;
+      line-height: 80/100rem;
+    }
+    .explation{
+      width: 100%;
+      text-align: center;
+      margin-top: 75/100rem;
+      p{
+        font-size: 19/100rem;
+        color: #CBCBCB;
+        line-height: 40/100rem;
+      }
+      p:first-child{
+        margin-bottom: 10/100rem;
+      }
+    }
+  }
+}
+
+/*制作照片页面*/
+.photoPage{
+  width: 100%;
+  height: 1206/100rem;
+  background-size: 100% 100%;
+  position: relative;
+  .makePlace{
+    width: 100%;
+    height: 1206/100rem;
+    background: url("../images/boy1.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 40/100rem;
+    position: relative;
+    .photoHead{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 70/100rem;
+      .photoleft{
+        float: left;
+        .someone{
+          width: 200/100rem;
+          height: 80/100rem;
+          font-size: 50/100rem;
+          color: #343434;
+          background-color: #fff;
+          -webkit-border-radius: 4/100rem;
+          -moz-border-radius: 4/100rem;
+          border-radius: 4/100rem;
+          overflow: hidden;
+        }
+        p{
+          font-size: 40/100rem;
+          color: #FFFFFF;
+          line-height: 70/100rem;
+        }
+        .yourPhoto{
+          width: 200/100rem;
+          height: 140/100rem;
+          color:#fff;
+          background: url("../images/blackIm.png") no-repeat;
+          background-size: 200/100rem 140/100rem;
+          padding-top: 8/100rem;
+          p{
+            font-size: 18/100rem;
+            line-height: 40/100rem;
+          }
+          span{
+            font-size: 34/100rem;
+          }
+        }
+      }
+      .photoRight{
+        float: right;
+        margin-top: 4/100rem;
+        img{
+          width: 216/100rem;
+          height: 118/100rem;
+        }
+      }
+    }
+
+    .beChoosed{
+      width: 100%;
+      height: 350/100rem;
+      margin-bottom: 15/100rem;
+      position: relative;
+      li{
+        min-width: 150/100rem;
+        max-width: 265/100rem;
+        height: 47/100rem;
+        line-height: 47/100rem;
+        box-shadow: 0 0 10/100rem 0 rgba(188,40,14,0.50);
+        -webkit-border-radius: 100/100rem;
+        -moz-border-radius: 100/100rem;
+        border-radius: 100/100rem;
+        text-align: center;
+        opacity: .9;
+        font-size: 28/100rem;
+        color: #575757;
+        background-color: #fff;
+        position: absolute;
+        span{
+          display: block;
+          width: 100%;
+          height: 100%;
+          padding: 0 15/100rem;
+          -webkit-border-radius: 100/100rem;
+          -moz-border-radius: 100/100rem;
+          border-radius: 100/100rem;
+        }
+        img{
+          width: 100%;
+          height: 47/100rem;
+          -webkit-border-radius: 100/100rem;
+          -moz-border-radius: 100/100rem;
+          border-radius: 100/100rem;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: 0;
+        }
+      }
+      li:nth-child(1){
+        left: 130/100rem;
+        top: 0;
+      }
+      li:nth-child(2){
+        left: 40/100rem;
+        top: 150/100rem;
+      }
+      li:nth-child(3){
+        left: 130/100rem;
+        top: 300/100rem
+      }
+      li:nth-child(4){
+        right: 40/100rem;
+        top: 0/100rem;
+      }
+      li:nth-child(5){
+        right: 150/100rem;
+        top: 150/100rem;
+      }
+      li:nth-child(6){
+        right: 40/100rem;
+        bottom: 0/100rem;
+      }
+    }
+    /*公共的选择*/
+    .commonChoose{
+      .picTitle{
+        height: 59/100rem;
+        line-height: 59/100rem;
+        text-align: center;
+        background-color: #000;
+        -webkit-border-radius: 4/100rem;
+        -moz-border-radius: 4/100rem;
+        border-radius: 4/100rem;
+        span{
+          font-size: 25/100rem;
+          color:#fff;
+        }
+      }
+      .chooseCon{
+        width: 100%;
+        background-color: #fff;
+        border-bottom-left-radius: 15/100rem;
+        border-bottom-right-radius: 15/100rem;
+        padding: 20/100rem 40/100rem;
+        li{
+          float: left;
+          text-align: center;
+          width: 18%;
+          margin-right: 2%;
+          span{
+            display: block;
+            width: 100%;
+            padding: 5/100rem 0;
+            background-color: #CDCDCD;
+            -webkit-border-radius: 10/100rem;
+            -moz-border-radius: 10/100rem;
+            border-radius: 10/100rem;
+            margin-bottom: 9/100rem;
+            font-size: 21/100rem;
+            color: #fff;
+          }
+          b{
+            display: block;
+            width: 18/100rem;
+            height: 18/100rem;
+            margin: 0 auto;
+            -webkit-border-radius: 100/100rem;
+            -moz-border-radius: 100/100rem;
+            border-radius: 100/100rem;
+          }
+        }
+        li:nth-child(1){
+          b{
+            background-color: #FDAE3C;
+          }
+        }
+        li:nth-child(2){
+          b{
+            background-color: #96D7B6;
+          }
+        }
+        li:nth-child(3){
+          b{
+            background-color: #4C81C4;
+          }
+        }
+        li:nth-child(4){
+          b{
+            background-color: #6E576D;
+          }
+        }
+        li:nth-child(5){
+          b{
+            background-color: #66A9FE;
+          }
+        }
+        .activeMan{
+          span{
+            background-color: #000!important;
+          }
+        }
+      }
+    }
+    .chooseOut{
+      height: 178/100rem;
+      position: absolute;
+      left: 0.4rem;
+      right: 0.4rem;
+      bottom: 1.8rem;
+      .visualize_label{
+        .picTitle{
+          img{
+            width: 30/100rem;
+            height: 30/100rem;
+          }
+        }
+      }
+      .bg_label{
+        .picTitle{
+          img{
+            width: 36/100rem;
+            height: 21/100rem;
+          }
+        }
+        .chooseBg{
+          width: 100%;
+          background-color: #fff;
+          border-bottom-left-radius: 15/100rem;
+          border-bottom-right-radius: 15/100rem;
+          padding: 20/100rem 40/100rem;
+          li{
+            width: 25%;
+            float: left;
+            text-align: center;
+            img{
+              width: 104/100rem;
+              height: 51/100rem;
+            }
+            b{
+              display: block;
+              width: 18/100rem;
+              height: 18/100rem;
+              margin: 0 auto;
+              background-color: #000;
+              -webkit-border-radius: 100/100rem;
+              -moz-border-radius: 100/100rem;
+              border-radius: 100/100rem;
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .someMark{
+      position: absolute;
+      left: 0.4rem;
+      right: 0.4rem;
+      bottom: 0.4rem;
+      .commonLabel{
+        width: 145/100rem;
+        height: 80/100rem;
+        line-height: 80/100rem;
+        -webkit-border-radius: 15/100rem;
+        -moz-border-radius: 15/100rem;
+        border-radius: 15/100rem;
+        text-align: center;
+        background-color: #A5A5A5;
+      }
+      ol{
+        width: 408/100rem;
+        float: left;
+        li{
+          float: left;
+          width: 145/100rem;
+          margin-top: 14/100rem;
+          text-align: center;
+          .arrow{
+            width: 28/100rem;
+            height: 15/100rem;
+            margin: 0 auto 10/100rem;
+            img{
+              display: block;
+              width: 28/100rem;
+              height: 15/100rem;
+            }
+          }
+          .labelActive{
+            background-color: #000!important;
+          }
+          span{
+            color: #fff;
+            font-size: 27/100rem;
+          }
+        }
+        li:nth-child(1){
+          margin-right: 118/100rem;
+          .commonLabel{
+            img{
+              width: 30/100rem;
+              height: 30/100rem;
+            }
+          }
+        }
+        li:nth-child(2){
+          .commonLabel{
+            img{
+              width: 36/100rem;
+              height: 21/100rem;
+            }
+          }
+        }
+      }
+      .nextPage{
+        float: left;
+        color: #000;
+        background-color: #fff;
+        margin: 39/100rem 0 0 110/100rem;
+        text-align: center;
+        padding-left: 20/100rem;
+        span{
+          float: left;
+        }
+        img{
+          width: 28/100rem;
+          height: 15/100rem;
+          vertical-align: middle;
+          -webkit-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+        }
+      }
+    }
+    .someLabels{
+      .picTitle{
+        height: 59/100rem;
+        line-height: 59/100rem;
+        text-align: center;
+        background-color: #000;
+        -webkit-border-radius: 4/100rem;
+        -moz-border-radius: 4/100rem;
+        border-radius: 4/100rem;
+        span{
+          font-size: 25/100rem;
+          color:#fff;
+        }
+        img{
+          width: 26/100rem;
+          height: 26/100rem;
+          vertical-align: middle;
+        }
+      }
+      .labelCommon{
+        width: 100%;
+        height: 220/100rem;
+        background-color: #fff;
+        border-bottom-left-radius: 15/100rem;
+        border-bottom-right-radius: 15/100rem;
+        padding: 20/100rem 40/100rem 0 40/100rem;
+        li{
+          float: left;
+          width:32%;
+          line-height: 46/100rem;
+          background-color: #CDCDCD;
+          margin-bottom: 20/100rem!important;
+          -webkit-border-radius: 10/100rem;
+          -moz-border-radius: 10/100rem;
+          border-radius: 10/100rem;
+          position: relative;
+          span{
+            display: block;
+            width: 100%;
+            height: 100%;
+            font-size: 19/100rem;
+            color: #fff;
+            text-align: center;
+            -webkit-border-radius: 10/100rem;
+            -moz-border-radius: 10/100rem;
+            border-radius: 10/100rem;
+            word-wrap: break-word;
+          }
+          .close{
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 25/100rem;
+            text-align: center;
+            color: #fff;
+            font-size: 26/100rem;
+            background-color: transparent;
+            cursor: pointer;
+            -webkit-border-radius: 10/100rem;
+            -moz-border-radius: 10/100rem;
+            border-radius: 10/100rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 66;
+          }
+        }
+        li:nth-child(3),li:nth-child(6),li:nth-child(9){
+          float: right;
+        }
+        li:nth-child(2),li:nth-child(5),li:nth-child(8){
+          margin: 0 2%;
+        }
+        .onlyGirl{
+          margin: 0 0 20/100rem 0!important;
+        }
+        .activeLabelBg{
+          background-color: #000;
+        }
+      }
+    }
+    .differentLabel{
+      margin-top: 30/100rem;
+      position: absolute;
+      left: 0.4rem;
+      right: 0.4rem;
+      bottom:0.2rem;
+      ul{
+        float: left;
+        li{
+          float: left;
+          min-width: 135/100rem;
+          text-align: center;
+          background: url("../images/label.png") no-repeat;
+          background-size: 100% 104/100rem;
+          margin-right: 2/100rem;
+          position: relative;
+          .arrows{
+            width: 28/100rem;
+            height: 15/100rem;
+            position: absolute;
+            top: -20/100rem;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            img{
+              width: 28/100rem;
+              height: 15/100rem;
+            }
+          }
+          span{
+            display: block;
+            width: 100%;
+            height: 104/100rem;
+            font-size: 18/100rem;
+            color: #fff;
+            padding-top: 48/100rem;
+          }
+        }
+        li:last-child{
+          margin-right: 0;
+        }
+        .activeLabel{
+          background: url("../images/labelActive.png") no-repeat;
+          background-size: 100% 104/100rem;
+          span{
+            font-size: 27/100rem;
+          }
+        }
+      }
+      .isOk{
+        float: right;
+        width: 113/100rem;
+        height: 102/100rem;
+        -webkit-border-radius: 15/100rem;
+        -moz-border-radius: 15/100rem;
+        border-radius: 15/100rem;
+        background-color: #fff;
+        text-align: center;
+        img{
+          width: 69/100rem;
+          height: 69/100rem;
+          margin-top: 17/100rem;
+        }
+      }
+    }
+    .erweimaLogo{
+      height: 140/100rem;
+      position: absolute;
+      left: 0.62rem;
+      right: 0.62rem;
+      bottom: 57/100rem;
+      .leftErweima{
+        float: left;
+        img{
+          width: 140/100rem;
+          height: 140/100rem;
+        }
+      }
+      .rightLogo{
+        float: right;
+        width: 216/100rem;
+        height: 95/100rem;
+        text-align: center;
+        background-color: #fff;
+        margin-top: 22/100rem;
+        img{
+          width: 157/100rem;
+          height: 49/100rem;
+          margin-top: 23/100rem;
+        }
+      }
+    }
+    .fulled{
+      width: 377/100rem;
+      height: 113/100rem;
+      line-height: 113/100rem;
+      text-align: center;
+      -webkit-border-radius: 15/100rem;
+      -moz-border-radius: 15/100rem;
+      border-radius: 15/100rem;
+      background-color: #000;
+      opacity: .7;
+      font-size: 33/100rem;
+      color: #fff;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      z-index: 88;
+      display: none;
+    }
+  }
+}
+
+/*生成图片的页面*/
+.myPhoto{
+  padding: 23/100rem;
+  background: linear-gradient(to top, #ffe8ca, #fff7ec);
+  .photoOut{
+    width: 100%;
+    padding: 37/100rem 60/100rem 0 60/100rem;
+    background-color: #fff;
+    img{
+      width: 100%;
+    }
+    .playAgain{
+      width: 100%;
+      padding-bottom: 58/100rem;
+      p{
+        text-align: center;
+        margin-bottom: 20/100rem;
+        span{
+          font-size: 24/100rem;
+          text-decoration: underline;
+        }
+        span:first-child{
+          color: #5AEC37;
+        }
+        span:last-child{
+          color: #000;
+        }
+      }
+      ul{
+        li{
+          float: left;
+          width: 32%;
+          height: 80/100rem;
+          line-height: 80/100rem;
+          text-align: center;
+          font-size: 33/100rem;
+          color: #fff;
+          -webkit-border-radius: 4/100rem;
+          -moz-border-radius: 4/100rem;
+          border-radius: 4/100rem;
+          text-align: center;
+          a{
+            width: 100%;
+            height: 100%;
+            color: #fff;
+          }
+        }
+        li:nth-child(1),li:nth-child(3){
+          background-color: #000;
+          box-shadow: 0 5/100rem 0 0 #9C9C9C;
+        }
+        li:nth-child(2){
+          margin-left: 2%;
+          background-color: #A2C4F4;
+          box-shadow: 0 5/100rem 0 0 #388AFF;
+        }
+        li:nth-child(3){
+          float: right;
+        }
+      }
+    }
+    .mask{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #000;
+      opacity: .5;
+      z-index: 666;
+    }
+    .sharePng{
+      width: 289/100rem;
+      height: 237/100rem;
+      position: absolute;
+      right: 100/100rem;
+      top: 150/100rem;
+      z-index: 888;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,728 @@
+/*首页*/
+.indexPage {
+  width: 100%;
+  height: 12.06rem;
+  background: url("../images/homeBg.png") no-repeat;
+  background-size: 100% 12.06rem;
+}
+.indexPage .photos {
+  width: 6.09rem;
+  -webkit-border-radius: 0.08rem;
+  -moz-border-radius: 0.08rem;
+  border-radius: 0.08rem;
+  margin: 0 auto;
+  padding-top: 1.2rem;
+}
+.indexPage .photos .head {
+  width: 100%;
+}
+.indexPage .photos .head img {
+  display: block;
+  margin: 0 auto;
+}
+.indexPage .photos .head img:nth-child(1) {
+  width: 2.03rem;
+  height: 0.58rem;
+}
+.indexPage .photos .head img:nth-child(2) {
+  width: 3.61rem;
+  height: 1.96rem;
+  margin: 0.3rem auto 0.6rem;
+}
+.indexPage .photos .btnCommon {
+  margin-bottom: 0.35rem;
+}
+.indexPage .photos form {
+  margin-bottom: 0.6rem;
+}
+.indexPage .photos form a {
+  display: block;
+  width: 3.7rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  -webkit-border-radius: 0.04rem;
+  -moz-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+}
+.indexPage .photos form a input {
+  color: #fff!important;
+}
+.indexPage .photos form .btnCommon {
+  position: relative;
+}
+.indexPage .photos form .btnCommon span {
+  float: left;
+  display: inline-block;
+  width: 1.1rem;
+  font-size: 0.36rem;
+  color: #A7A7A7;
+  margin-left: 0.3rem;
+}
+.indexPage .photos form .btnCommon .writeName {
+  font-size: 0.24rem;
+  color: red;
+  position: absolute;
+  top: 0.55rem;
+  left: 1.4rem;
+}
+.indexPage .photos form .username input {
+  float: right;
+  width: 2.2rem;
+  height: 0.7rem;
+  line-height: 0.8rem;
+}
+.indexPage .photos form .usersex input {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.5rem;
+  overflow: hidden;
+  background: url("../images/radioIcon.png") no-repeat;
+  background-size: 1.49rem 0.99rem;
+  vertical-align: middle;
+  outline: none;
+  resize: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.indexPage .photos form .usersex .boy {
+  background-position: 0 -0.58rem;
+  margin-right: 0.35rem;
+}
+.indexPage .photos form .usersex .boyActive {
+  background-position: 0 0;
+  margin-right: 0.35rem;
+}
+.indexPage .photos form .usersex .girl {
+  background-position: -0.92rem -0.58rem;
+}
+.indexPage .photos form .usersex .girlActive {
+  background-position: -0.92rem 0;
+}
+.indexPage .photos .makePhoto {
+  color: #fff;
+  background: #FDAF3D;
+  box-shadow: 0 0.08rem 0 0 #F68515;
+  text-align: center;
+  border: none;
+  line-height: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+.indexPage .photos .getPresent {
+  color: #fff;
+  text-align: center;
+  background: #A2C4F4;
+  box-shadow: 0 0.08rem 0 0 #388AFF;
+  border: none;
+  line-height: 0.8rem;
+}
+.indexPage .photos .explation {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+.indexPage .photos .explation p {
+  font-size: 0.19rem;
+  color: #CBCBCB;
+  line-height: 0.4rem;
+}
+.indexPage .photos .explation p:first-child {
+  margin-bottom: 0.1rem;
+}
+/*制作照片页面*/
+.photoPage {
+  width: 100%;
+  height: 12.06rem;
+  background-size: 100% 100%;
+  position: relative;
+}
+.photoPage .makePlace {
+  width: 100%;
+  height: 12.06rem;
+  background: url("../images/boy1.png") no-repeat;
+  background-size: 100% 100%;
+  padding: 0.4rem;
+  position: relative;
+  /*公共的选择*/
+}
+.photoPage .makePlace .photoHead {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+.photoPage .makePlace .photoHead .photoleft {
+  float: left;
+}
+.photoPage .makePlace .photoHead .photoleft .someone {
+  width: 2rem;
+  height: 0.8rem;
+  font-size: 0.5rem;
+  color: #343434;
+  background-color: #fff;
+  -webkit-border-radius: 0.04rem;
+  -moz-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+  overflow: hidden;
+}
+.photoPage .makePlace .photoHead .photoleft p {
+  font-size: 0.4rem;
+  color: #FFFFFF;
+  line-height: 0.7rem;
+}
+.photoPage .makePlace .photoHead .photoleft .yourPhoto {
+  width: 2rem;
+  height: 1.4rem;
+  color: #fff;
+  background: url("../images/blackIm.png") no-repeat;
+  background-size: 2rem 1.4rem;
+  padding-top: 0.08rem;
+}
+.photoPage .makePlace .photoHead .photoleft .yourPhoto p {
+  font-size: 0.18rem;
+  line-height: 0.4rem;
+}
+.photoPage .makePlace .photoHead .photoleft .yourPhoto span {
+  font-size: 0.34rem;
+}
+.photoPage .makePlace .photoHead .photoRight {
+  float: right;
+  margin-top: 0.04rem;
+}
+.photoPage .makePlace .photoHead .photoRight img {
+  width: 2.16rem;
+  height: 1.18rem;
+}
+.photoPage .makePlace .beChoosed {
+  width: 100%;
+  height: 3.5rem;
+  margin-bottom: 0.15rem;
+  position: relative;
+}
+.photoPage .makePlace .beChoosed li {
+  min-width: 1.5rem;
+  max-width: 2.65rem;
+  height: 0.47rem;
+  line-height: 0.47rem;
+  box-shadow: 0 0 0.1rem 0 rgba(188, 40, 14, 0.5);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  opacity: .9;
+  font-size: 0.28rem;
+  color: #575757;
+  background-color: #fff;
+  position: absolute;
+}
+.photoPage .makePlace .beChoosed li span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 0.15rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+.photoPage .makePlace .beChoosed li img {
+  width: 100%;
+  height: 0.47rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.photoPage .makePlace .beChoosed li:nth-child(1) {
+  left: 1.3rem;
+  top: 0;
+}
+.photoPage .makePlace .beChoosed li:nth-child(2) {
+  left: 0.4rem;
+  top: 1.5rem;
+}
+.photoPage .makePlace .beChoosed li:nth-child(3) {
+  left: 1.3rem;
+  top: 3rem;
+}
+.photoPage .makePlace .beChoosed li:nth-child(4) {
+  right: 0.4rem;
+  top: 0rem;
+}
+.photoPage .makePlace .beChoosed li:nth-child(5) {
+  right: 1.5rem;
+  top: 1.5rem;
+}
+.photoPage .makePlace .beChoosed li:nth-child(6) {
+  right: 0.4rem;
+  bottom: 0rem;
+}
+.photoPage .makePlace .commonChoose .picTitle {
+  height: 0.59rem;
+  line-height: 0.59rem;
+  text-align: center;
+  background-color: #000;
+  -webkit-border-radius: 0.04rem;
+  -moz-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+}
+.photoPage .makePlace .commonChoose .picTitle span {
+  font-size: 0.25rem;
+  color: #fff;
+}
+.photoPage .makePlace .commonChoose .chooseCon {
+  width: 100%;
+  background-color: #fff;
+  border-bottom-left-radius: 0.15rem;
+  border-bottom-right-radius: 0.15rem;
+  padding: 0.2rem 0.4rem;
+}
+.photoPage .makePlace .commonChoose .chooseCon li {
+  float: left;
+  text-align: center;
+  width: 18%;
+  margin-right: 2%;
+}
+.photoPage .makePlace .commonChoose .chooseCon li span {
+  display: block;
+  width: 100%;
+  padding: 0.05rem 0;
+  background-color: #CDCDCD;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  margin-bottom: 0.09rem;
+  font-size: 0.21rem;
+  color: #fff;
+}
+.photoPage .makePlace .commonChoose .chooseCon li b {
+  display: block;
+  width: 0.18rem;
+  height: 0.18rem;
+  margin: 0 auto;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+.photoPage .makePlace .commonChoose .chooseCon li:nth-child(1) b {
+  background-color: #FDAE3C;
+}
+.photoPage .makePlace .commonChoose .chooseCon li:nth-child(2) b {
+  background-color: #96D7B6;
+}
+.photoPage .makePlace .commonChoose .chooseCon li:nth-child(3) b {
+  background-color: #4C81C4;
+}
+.photoPage .makePlace .commonChoose .chooseCon li:nth-child(4) b {
+  background-color: #6E576D;
+}
+.photoPage .makePlace .commonChoose .chooseCon li:nth-child(5) b {
+  background-color: #66A9FE;
+}
+.photoPage .makePlace .commonChoose .chooseCon .activeMan span {
+  background-color: #000!important;
+}
+.photoPage .makePlace .chooseOut {
+  height: 1.78rem;
+  position: absolute;
+  left: 0.4rem;
+  right: 0.4rem;
+  bottom: 1.8rem;
+}
+.photoPage .makePlace .chooseOut .visualize_label .picTitle img {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.photoPage .makePlace .chooseOut .bg_label .picTitle img {
+  width: 0.36rem;
+  height: 0.21rem;
+}
+.photoPage .makePlace .chooseOut .bg_label .chooseBg {
+  width: 100%;
+  background-color: #fff;
+  border-bottom-left-radius: 0.15rem;
+  border-bottom-right-radius: 0.15rem;
+  padding: 0.2rem 0.4rem;
+}
+.photoPage .makePlace .chooseOut .bg_label .chooseBg li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.photoPage .makePlace .chooseOut .bg_label .chooseBg li img {
+  width: 1.04rem;
+  height: 0.51rem;
+}
+.photoPage .makePlace .chooseOut .bg_label .chooseBg li b {
+  display: block;
+  width: 0.18rem;
+  height: 0.18rem;
+  margin: 0 auto;
+  background-color: #000;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  display: none;
+}
+.photoPage .makePlace .someMark {
+  position: absolute;
+  left: 0.4rem;
+  right: 0.4rem;
+  bottom: 0.4rem;
+}
+.photoPage .makePlace .someMark .commonLabel {
+  width: 1.45rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  -webkit-border-radius: 0.15rem;
+  -moz-border-radius: 0.15rem;
+  border-radius: 0.15rem;
+  text-align: center;
+  background-color: #A5A5A5;
+}
+.photoPage .makePlace .someMark ol {
+  width: 4.08rem;
+  float: left;
+}
+.photoPage .makePlace .someMark ol li {
+  float: left;
+  width: 1.45rem;
+  margin-top: 0.14rem;
+  text-align: center;
+}
+.photoPage .makePlace .someMark ol li .arrow {
+  width: 0.28rem;
+  height: 0.15rem;
+  margin: 0 auto 0.1rem;
+}
+.photoPage .makePlace .someMark ol li .arrow img {
+  display: block;
+  width: 0.28rem;
+  height: 0.15rem;
+}
+.photoPage .makePlace .someMark ol li .labelActive {
+  background-color: #000!important;
+}
+.photoPage .makePlace .someMark ol li span {
+  color: #fff;
+  font-size: 0.27rem;
+}
+.photoPage .makePlace .someMark ol li:nth-child(1) {
+  margin-right: 1.18rem;
+}
+.photoPage .makePlace .someMark ol li:nth-child(1) .commonLabel img {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.photoPage .makePlace .someMark ol li:nth-child(2) .commonLabel img {
+  width: 0.36rem;
+  height: 0.21rem;
+}
+.photoPage .makePlace .someMark .nextPage {
+  float: left;
+  color: #000;
+  background-color: #fff;
+  margin: 0.39rem 0 0 1.1rem;
+  text-align: center;
+  padding-left: 0.2rem;
+}
+.photoPage .makePlace .someMark .nextPage span {
+  float: left;
+}
+.photoPage .makePlace .someMark .nextPage img {
+  width: 0.28rem;
+  height: 0.15rem;
+  vertical-align: middle;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.photoPage .makePlace .someLabels .picTitle {
+  height: 0.59rem;
+  line-height: 0.59rem;
+  text-align: center;
+  background-color: #000;
+  -webkit-border-radius: 0.04rem;
+  -moz-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+}
+.photoPage .makePlace .someLabels .picTitle span {
+  font-size: 0.25rem;
+  color: #fff;
+}
+.photoPage .makePlace .someLabels .picTitle img {
+  width: 0.26rem;
+  height: 0.26rem;
+  vertical-align: middle;
+}
+.photoPage .makePlace .someLabels .labelCommon {
+  width: 100%;
+  height: 2.2rem;
+  background-color: #fff;
+  border-bottom-left-radius: 0.15rem;
+  border-bottom-right-radius: 0.15rem;
+  padding: 0.2rem 0.4rem 0 0.4rem;
+}
+.photoPage .makePlace .someLabels .labelCommon li {
+  float: left;
+  width: 32%;
+  line-height: 0.46rem;
+  background-color: #CDCDCD;
+  margin-bottom: 0.2rem !important;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  position: relative;
+}
+.photoPage .makePlace .someLabels .labelCommon li span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.19rem;
+  color: #fff;
+  text-align: center;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  word-wrap: break-word;
+}
+.photoPage .makePlace .someLabels .labelCommon li .close {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 0.25rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.26rem;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 66;
+}
+.photoPage .makePlace .someLabels .labelCommon li:nth-child(3),
+.photoPage .makePlace .someLabels .labelCommon li:nth-child(6),
+.photoPage .makePlace .someLabels .labelCommon li:nth-child(9) {
+  float: right;
+}
+.photoPage .makePlace .someLabels .labelCommon li:nth-child(2),
+.photoPage .makePlace .someLabels .labelCommon li:nth-child(5),
+.photoPage .makePlace .someLabels .labelCommon li:nth-child(8) {
+  margin: 0 2%;
+}
+.photoPage .makePlace .someLabels .labelCommon .onlyGirl {
+  margin: 0 0 0.2rem 0 !important;
+}
+.photoPage .makePlace .someLabels .labelCommon .activeLabelBg {
+  background-color: #000;
+}
+.photoPage .makePlace .differentLabel {
+  margin-top: 0.3rem;
+  position: absolute;
+  left: 0.4rem;
+  right: 0.4rem;
+  bottom: 0.2rem;
+}
+.photoPage .makePlace .differentLabel ul {
+  float: left;
+}
+.photoPage .makePlace .differentLabel ul li {
+  float: left;
+  min-width: 1.35rem;
+  text-align: center;
+  background: url("../images/label.png") no-repeat;
+  background-size: 100% 1.04rem;
+  margin-right: 0.02rem;
+  position: relative;
+}
+.photoPage .makePlace .differentLabel ul li .arrows {
+  width: 0.28rem;
+  height: 0.15rem;
+  position: absolute;
+  top: -0.2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.photoPage .makePlace .differentLabel ul li .arrows img {
+  width: 0.28rem;
+  height: 0.15rem;
+}
+.photoPage .makePlace .differentLabel ul li span {
+  display: block;
+  width: 100%;
+  height: 1.04rem;
+  font-size: 0.18rem;
+  color: #fff;
+  padding-top: 0.48rem;
+}
+.photoPage .makePlace .differentLabel ul li:last-child {
+  margin-right: 0;
+}
+.photoPage .makePlace .differentLabel ul .activeLabel {
+  background: url("../images/labelActive.png") no-repeat;
+  background-size: 100% 1.04rem;
+}
+.photoPage .makePlace .differentLabel ul .activeLabel span {
+  font-size: 0.27rem;
+}
+.photoPage .makePlace .differentLabel .isOk {
+  float: right;
+  width: 1.13rem;
+  height: 1.02rem;
+  -webkit-border-radius: 0.15rem;
+  -moz-border-radius: 0.15rem;
+  border-radius: 0.15rem;
+  background-color: #fff;
+  text-align: center;
+}
+.photoPage .makePlace .differentLabel .isOk img {
+  width: 0.69rem;
+  height: 0.69rem;
+  margin-top: 0.17rem;
+}
+.photoPage .makePlace .erweimaLogo {
+  height: 1.4rem;
+  position: absolute;
+  left: 0.62rem;
+  right: 0.62rem;
+  bottom: 0.57rem;
+}
+.photoPage .makePlace .erweimaLogo .leftErweima {
+  float: left;
+}
+.photoPage .makePlace .erweimaLogo .leftErweima img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.photoPage .makePlace .erweimaLogo .rightLogo {
+  float: right;
+  width: 2.16rem;
+  height: 0.95rem;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 0.22rem;
+}
+.photoPage .makePlace .erweimaLogo .rightLogo img {
+  width: 1.57rem;
+  height: 0.49rem;
+  margin-top: 0.23rem;
+}
+.photoPage .makePlace .fulled {
+  width: 3.77rem;
+  height: 1.13rem;
+  line-height: 1.13rem;
+  text-align: center;
+  -webkit-border-radius: 0.15rem;
+  -moz-border-radius: 0.15rem;
+  border-radius: 0.15rem;
+  background-color: #000;
+  opacity: .7;
+  font-size: 0.33rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 88;
+  display: none;
+}
+/*生成图片的页面*/
+.myPhoto {
+  padding: 0.23rem;
+  background: linear-gradient(to top, #ffe8ca, #fff7ec);
+}
+.myPhoto .photoOut {
+  width: 100%;
+  padding: 0.37rem 0.6rem 0 0.6rem;
+  background-color: #fff;
+}
+.myPhoto .photoOut img {
+  width: 100%;
+}
+.myPhoto .photoOut .playAgain {
+  width: 100%;
+  padding-bottom: 0.58rem;
+}
+.myPhoto .photoOut .playAgain p {
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.myPhoto .photoOut .playAgain p span {
+  font-size: 0.24rem;
+  text-decoration: underline;
+}
+.myPhoto .photoOut .playAgain p span:first-child {
+  color: #5AEC37;
+}
+.myPhoto .photoOut .playAgain p span:last-child {
+  color: #000;
+}
+.myPhoto .photoOut .playAgain ul li {
+  float: left;
+  width: 32%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.33rem;
+  color: #fff;
+  -webkit-border-radius: 0.04rem;
+  -moz-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+  text-align: center;
+}
+.myPhoto .photoOut .playAgain ul li a {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.myPhoto .photoOut .playAgain ul li:nth-child(1),
+.myPhoto .photoOut .playAgain ul li:nth-child(3) {
+  background-color: #000;
+  box-shadow: 0 0.05rem 0 0 #9C9C9C;
+}
+.myPhoto .photoOut .playAgain ul li:nth-child(2) {
+  margin-left: 2%;
+  background-color: #A2C4F4;
+  box-shadow: 0 0.05rem 0 0 #388AFF;
+}
+.myPhoto .photoOut .playAgain ul li:nth-child(3) {
+  float: right;
+}
+.myPhoto .photoOut .mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5;
+  z-index: 666;
+}
+.myPhoto .photoOut .sharePng {
+  width: 2.89rem;
+  height: 2.37rem;
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+  z-index: 888;
+}
+.myPhoto .photoOut .sharePng img {
+  width: 100%;
+  height: 100%;
+}

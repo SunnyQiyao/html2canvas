@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-tab-hightlight-color: transparent;
+  -webkit-tab-hightlight-color:none!important;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'PingFangSC-Medium','Microsoft YaHei', Arial, sans-serif;
+  font-size: 0.32rem;
+}
+.layout{
+  margin: 0 auto;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+input,
+textarea,
+button{
+  outline: none;
+  resize: none;
+  border:0;
+}
+i,
+b,
+s,
+em,
+strong {
+  font-style: normal;
+  font-weight: normal;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+input,textarea{
+  color: #727272!important;
+  font-size: 0.36rem;
+}
+input,textarea::-webkit-input-placeholder{color: #BEB9B9;}
+input,textarea:-ms-input-placeholder{color: #BEB9B9;}
+input,textarea::-moz-placeholder{color: #BEB9B9;}
+input,textarea:-moz-placeholder{color: #BEB9B9;}
+
+/*按钮公共样式*/
+.btnCommon{
+  width: 3.7rem;
+  height: 0.8rem;
+  line-height: 0.74rem;
+  -webkit-border-radius: 0.04rem;
+  -moz-border-radius: 0.04rem;
+  border-radius: 0.04rem;
+  margin: 0 auto;
+  border: 2px solid #FDAF3D;
+}
+.btnCommon a{
+  color: #FFF;
+  font-size: 0.32rem;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width:320px) {
+  html{
+    font-size:42.66667px;
+  }
+}
+@media screen and (min-width:375px){
+  html{
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 53.33333px;
+  }
+}
+@media screen and (min-width: 412px){
+  html{
+    font-size: 54.93333px;
+  }
+}
+@media screen and (min-width: 414px){
+  html{
+    font-size: 55.2px;
+  }
+}
+@media screen and (min-width: 440px) {
+  html {
+    font-size: 58.66666px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size:100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html{
+    font-size: 102.4px;
+  }
+}
+@media screen and (min-width: 1024px){
+  html{
+    font-size: 136.53333px;
+  }
+}
+
+
+
+
